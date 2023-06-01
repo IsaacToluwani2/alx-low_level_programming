@@ -1,20 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - Prints the numbers since 0 to 9
- *
- * Return: Always (Success)
+ * main - Single digit numbers of base 10
+ * 
+ * Return: Always 0 (Success) 
  */
 int main(void)
 {
-char n;
+int i;
 
-for (n = '0'; n <= '9'; n++)
+for (i = 0; i < 10; i++)
 {
-putchar(n);
+putchar(i + '0');
 }
 
-putchar('\n');
-
 return (0);
+
 }
