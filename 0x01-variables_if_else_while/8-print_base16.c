@@ -1,26 +1,23 @@
 #include <stdio.h>
 
 /**
- * main - Prints a hexadecimal string
+ * main - Print all the numbers of base 16 in lowercase
  *
  * Return: Always (Success)
  */
 int main(void)
 {
-char c;
+int i;
 
-for (c = '0'; c <= '9'; c++)
+for (i = 0; i <= 10; i++)
 {
-putchar(c);
+putchar(i + '0');
 }
-
-for (c = 'a'; c <= 'f'; c++)
+for (i = 'a'; i < 'g'; i++)
 {
-putchar(c);
+putchar(i);
 }
-
 putchar('\n');
 
 return (0);
 }
-
