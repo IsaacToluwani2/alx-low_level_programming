@@ -17,6 +17,7 @@ for (i = 'a'; i <= 'z'; i++)
 _putchar(i);
 }
 i++;
-}
 _putchar(10);
+}
+
 }
