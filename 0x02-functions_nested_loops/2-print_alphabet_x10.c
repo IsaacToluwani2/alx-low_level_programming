@@ -19,5 +19,4 @@ _putchar(i);
 i++;
 }
 _putchar(10);
-return (0);
 }
