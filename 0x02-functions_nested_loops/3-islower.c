@@ -2,8 +2,6 @@
 
 int _islower(int c)
 {
-int c;
-
 for (c = 'a'; c <= 'z'; c++)
 {
 _putchar(c);
