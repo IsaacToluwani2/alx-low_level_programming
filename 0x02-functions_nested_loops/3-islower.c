@@ -2,11 +2,11 @@
 
 int _islower(int c)
 {
-int i;
+int c;
 
-for (i = 'a'; i <= 'z'; i++)
+for (c = 'a'; c <= 'z'; c++)
 {
-_putchar(i);
+_putchar(c);
 if (i == 'c')
 {
 return (1);
