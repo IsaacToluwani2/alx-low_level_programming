@@ -8,15 +8,14 @@
 int main(void)
 
 {
-int i;
-
-for (i = 'a'; i <= 'z'; i++)
+int c;
+if ((c == 'c'))
 {
-    if (i = 'c')
-    {
-        return (1);
-    }
-    
+    return (1);
 }
-return (0);
+else
+{
+    return (0);
+}
+
 }
