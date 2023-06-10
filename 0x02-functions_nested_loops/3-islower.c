@@ -7,7 +7,7 @@ int c;
 for (c = 'a'; c <= 'z'; c++)
 {
 _putchar(c);
-if (i == 'c')
+if (c == 'c')
 {
 return (1);
 }
