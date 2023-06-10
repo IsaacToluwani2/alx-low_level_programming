@@ -6,17 +6,17 @@
  * Return: Always 0 (Success)
  */
 int main(void)
+
 {
-char i, j;
-j = 0;
-while (j < 10)
-{
+int i;
+
 for (i = 'a'; i <= 'z'; i++)
 {
-putchar(i);
+    if (i = 'c')
+    {
+        return (1);
+    }
+    
 }
-j++;
-}
-
-return 0;
+return (0);
 }
