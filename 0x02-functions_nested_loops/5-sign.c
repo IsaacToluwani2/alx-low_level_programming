@@ -14,7 +14,7 @@ _putchar(43);
 _putchar('\n');
 return (1);
 }
-if (n = 0)
+if (n == 0)
 {
 _putchar(48);
 _putchar('\n');
