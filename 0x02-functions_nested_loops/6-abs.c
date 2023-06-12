@@ -9,6 +9,6 @@ int _abs(int)
 {
 int i, j;
 i =_abs(j);
-_putchar(j);
+_putchar(i);
 return (0);
 }
