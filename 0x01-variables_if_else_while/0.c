@@ -8,13 +8,13 @@
 int main(void)
 
 {
-int c;
-if ((c >= 'a') && (c <= 'z'))
+int i, j;
+for (i = 0; i < 10; i++)
 {
-return (1);
+for (j = 0; j <= 9; j++)
+{
+printf  ("%d\n", i);
 }
-else
-{
-return (0);
+
 }
 }
