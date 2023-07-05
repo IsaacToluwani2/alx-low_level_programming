@@ -6,17 +6,15 @@
  * Return: Always 0 (Success)
  */
 int main(void)
+
 {
-char i, j;
-j = 0;
-while (j < 10)
+int i, j;
+for (i = 0; i < 10; i++)
 {
-for (i = 'a'; i <= 'z'; i++)
+for (j = 0; j <= 9; j++)
 {
-putchar(i);
-}
-j++;
+printf  ("%d\n", i);
 }
 
-return 0;
+}
 }

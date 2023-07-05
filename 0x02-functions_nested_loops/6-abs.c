@@ -1,19 +1,14 @@
 #include "main.h"
-/**
- * _abs - converts negative numbers to positive
- * @n: The character to print
- *
- * Return: -n if negative else it returns n.
- */
 
-int _abs(int n)
+/**
+ * _abs - look for lower 
+ *
+ * Return: Always 0 (Success)
+ */
+int _abs(int)
 {
-if (n < 0)
-{
-return (-n);
-}
-else
-{
-return (n);
-}
+int i, j;
+i =_abs(j);
+_putchar(i);
+return (0);
 }
