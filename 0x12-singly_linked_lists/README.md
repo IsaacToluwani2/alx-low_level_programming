@@ -1,1 +1,1 @@
-thid is singly linked list
+Singly Linked List
