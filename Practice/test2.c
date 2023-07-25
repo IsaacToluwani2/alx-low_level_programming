@@ -1,17 +1,15 @@
 #include <stdio.h>
 
+void modify_my_param(int m)
+{
+  m = 402;
+}
+
 int main()
 {
- int i;
- int list_int[10];
+  int n;
 
- for (i = 0; i <= 10; i++)
- {
-  printf("list_int[%d]\n", list_int[i]);
-  list_int[i] = i+1;
-  printf("list_int[%d] is initialized with %d\n", i, list_int[i]  );
- }
- 
-
- return  0;
+  n=98;
+  modify_my_param(n);
+  return 0;
 }
