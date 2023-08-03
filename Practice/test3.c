@@ -1,22 +1,34 @@
 #include <stdio.h>
 
+void good_morning();
+void goodAfternoon();
+void goodEvening();
+void goodEvening();
+
+
+void good_morning {
+  printf("Good Morning");
+}
+
+void goodAfternoon{
+  printf("Good Afternoon");
+}
+
+void goodEvening{
+  printf("Good Evening");
+}
+
 int main ()
 {
- char array_ch[7] = {'H', 'e', 'l', 'l', 'o', '!', '\0'};
- int i;
-
- for (i = 0; i < 7; i++)
- {
-  printf("array_ch[%d] contains: %c\n", i, array_ch[i]);
-  // method 1
-
-  printf("Put all elements together(Method 1):\n");
-  for (i = 0; array_ch[i] != '0' && i < 7; i++)
-  {
-    printf('%c', array)
-  }
-  
+  goodMorning();
+  goodAfternoon();
+  goodEvening();
+  return 0;
  }
  
   
+}
+
+void good_morning()
+{
 }

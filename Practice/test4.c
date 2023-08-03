@@ -1,28 +1,24 @@
 #include <stdio.h>
 
-int power(int m, int n);
+void good_morning();
+void goodAfternoon();
+void goodEvening();
 
-
-main ()
-{
- int i;
-
- for (i = 0; i < 10; ++i)
- {
-  printf("%d, %d, %d", i, power(2, i), power(-3, i));
-  
- }
- return 0;
+void good_morning() {
+    printf("Good Morning");
 }
 
-int power(int base, int n)
-{
-  int i, p;
+void goodAfternoon() {
+    printf("Good Afternoon");
+}
 
-  p = 1;
-  for (i = 1; i <= n; i++)
-  {
-    p = p * base;
-  }
-  
+void goodEvening() {
+    printf("Good Evening");
+}
+
+int main() {
+    good_morning();
+    goodAfternoon();
+    goodEvening();
+    return 0;
 }
