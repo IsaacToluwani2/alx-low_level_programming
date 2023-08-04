@@ -1,14 +1,14 @@
 #include "main.h"
+
 /**
- * _isalpha - checks for alphabet prits 1 for alphabet and 0 for non alphabet
+ * _isalpha - look for lower case
  * @c: The character to print
  *
- * Return: On success 1
+ * Return: Always 0 (Success)
  */
-
 int _isalpha(int c)
 {
-if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
+if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 {
 return (1);
 }
