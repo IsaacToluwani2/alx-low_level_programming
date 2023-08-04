@@ -2,8 +2,7 @@
 
 int main()
 {
-int x= 'Z';
-if (x >= 'a' && x <= 'z')
+if (c >= 'A' && c <= 'z')
 {
 return (1);
 }
