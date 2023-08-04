@@ -2,10 +2,13 @@
 
 int main(void)
 {
-  int i;
-  for (i = 'a'; i <= 'z'; i++)
-  {
-    putchar(i);
-  }
-  putchar('\n');
+int i, j;
+for (j = 0; j < 11; j++)
+{
+for (i = 'a'; i <= 'z'; i++)
+{
+putchar(i);
+}
+}
+putchar('\n');
 }
