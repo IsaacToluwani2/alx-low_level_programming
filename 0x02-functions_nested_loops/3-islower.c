@@ -2,8 +2,8 @@
 
 /**
  * _islower - look for lower case
- * @c: the parameter for the _islower function 
- * 
+ * @c: the parameter for the _islower function
+ *
  * Return: Always 0 (Success)
  */
 
