@@ -2,13 +2,10 @@
 
 int main(void)
 {
-  putchar('_');
-  putchar('p');
-  putchar('u');
-  putchar('t');
-  putchar('h');
-  putchar('a');
-  putchar('r');
+  int i;
+  for (i = 'a'; i <= 'z'; i++)
+  {
+    putchar(i);
+  }
   putchar('\n');
-  return (0);
 }
