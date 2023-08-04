@@ -13,8 +13,8 @@ for (j = 0; j < 11; j++)
 {
 for (i = 'a'; i <= 'z'; i++)
 {
-putchar(i);
+_putchar(i);
 }
 }
-putchar('\n');
+_putchar('\n');
 }
