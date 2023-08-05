@@ -1,13 +1,20 @@
 #include <stdio.h>
 
-int main()
+void swap_int(int *a, int *b)
 {
-if (c >= 'A' && c <= 'z')
-{
-return (1);
+a = *b;
+*b = a;
 }
-else
+
+int main(void)
 {
-return (0);
-}
+    int a;
+    int b;
+
+    a = 98;
+    b = 42;
+    printf("a=%d, b=%d\n", a, b);
+    swap_int(&a, &b);
+    printf("a=%d, b=%d\n", a, b);
+    return (0);
 }
