@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _realloc - reallocates old to new, set condition from problem
- * returning dest w/ size of malloc new_size, set src as ptr
+ * _realloc - reallocate old to new, set condition from problem
+ * returning dest w/ size of malloc new_size, sets src as ptr
  * @ptr: pointer to memory prev alloc, must free end
  * @old_size: input old
  * @new_size: input new
