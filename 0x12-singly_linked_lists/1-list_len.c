@@ -4,7 +4,7 @@
  * list_len - Find number of the elements in
  *            the link list_t lists.
  * @h: The link list_t lists.
- * @elements: a counter for size_t (nodes)
+ * @elements: a node counter
  *
  * Return: The no of elements in h.
  */
