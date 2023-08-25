@@ -3,25 +3,25 @@
 #include <string.h>
 
 //function
-int add (int *a, int *b)
+
+//main fuction
+int main ()
 {
-<<<<<<< HEAD
-*a = 56;	
-int sum = *a + *b;
-return sum;
+char str[88];
+int i, delt = 'a' - 'A';
+
+printf("Enter a string less than 80 characters:\n");
+gets (str);
+i = 0;
+
+while (str[i])
+{
+  if ((str[i] >= 'a') && (str[i] <='z'))
+  str[i] = delt; 
+  ++i;
+}
+printf("The entered string is (in uppercase):\n");
+puts (str);
+return 0;
 }
 
-//main function
-int main () 
-{
-int x = 5;
-int y = 6;
-printf ("%d\n", add(&x, &y));
-printf ("%d\n", x +  y);
-=======
-int j = 5;
-// int *p = &j;
-printf ("the value of j is %d", * &j);
->>>>>>> 4f8518fc280a84d658713bcf3bf08cc463995378
-return (0);
-}

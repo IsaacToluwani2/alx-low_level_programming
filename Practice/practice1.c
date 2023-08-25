@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include "main.h"
+#include <string.h>
 
+// Function block
 
-int sum (int a, int b) {
-  int add = a + b;
-  return add;
-}
+// Main block
 

@@ -1,1 +1,2 @@
-Pointers and Arrays. Data Structures
+Pointers and Arrays. 
+Data and Structures
